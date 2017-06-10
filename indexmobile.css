@@ -17,11 +17,11 @@ body {
 	color: white;
 }
 #maindiv {
-	
+
 	border:40px solid transparent;
 	padding: 5 px;
 	border-image: url(Bilder/Border1.png) 500 round;
-	margin:auto; 
+	margin:auto;
 }
 .header {
   font-family: 'ostrich', sarif-sans;
@@ -39,7 +39,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	vertical-align:top;
-	
+
 }
 ul {
 	list-style:none;
