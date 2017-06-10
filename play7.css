@@ -8,6 +8,9 @@ html, body {
 body::-webkit-scrollbar {
     display: none;
 }
+a {
+	color: white;
+}
 h1 {
 	font-size:4rem;
 	font-family: "Aref Ruqaa", 'PT Sans', sans-serif;
