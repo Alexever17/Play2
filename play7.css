@@ -5,8 +5,8 @@ html, body {
 	font-size:20px;
 	font-family: 'PT Serif', serif;
 }
-body::-webkit-scrollbar { 
-    display: none; 
+body::-webkit-scrollbar {
+    display: none;
 }
 h1 {
 	font-size:4rem;
@@ -38,7 +38,7 @@ button:focus {
 	outline:0;
 }
 #about {
-	visibility: hidden; 
+	visibility: hidden;
 	color:white;
 	z-index:2;
 	background-color: rgba(75, 75, 75, 0.9);
@@ -51,7 +51,7 @@ button:focus {
 	padding: 10vh 10vw 10vh 10vw;
 }
 #contact {
-	visibility: hidden; 
+	visibility: hidden;
 	color:white;
 	z-index:2;
 	background-color: rgba(75, 75, 75, 0.9);
@@ -124,6 +124,9 @@ button:focus {
 	width: 1000px;
 	height: 498px;
 }
+.tranformX > a{
+	color: white;
+}
 #a1 {
 	top:100vh;
 	background-image: url(Bilder/backgroundplay7a1.jpg);
@@ -169,4 +172,3 @@ button:focus {
 	top:94vh;
 	transform: translateX(0px);
 }
-	
