@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Stage One: Make a Webpage</title>
+<link rel="stylesheet" href="play8.css">
+<link rel="stylesheet" type="text/css" href="flaticon.css">
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Rubik" rel="stylesheet">
+<link rel="icon" href="Bilder/favicon.gif" type="image/gif" sizes="16x16">
+<meta name="description" content="Proxer.me Fanpage">
+<meta name="keywords" content="Introduction to programming, Udacity, IPND">
+<meta name="author" content="Oleksandr Malakhov">
+<script>
+function Anime() {
+    document.getElementById('Anime').style.display = 'flex';
+    document.getElementById('Manga').style.display = 'none';
+    document.getElementById('Forum').style.display = 'none';
+}
+function Manga() {
+    document.getElementById('Anime').style.display = 'none';
+    document.getElementById('Manga').style.display = 'flex';
+    document.getElementById('Forum').style.display = 'none';
+}
+function Forum() {
+    document.getElementById('Anime').style.display = 'none';
+    document.getElementById('Manga').style.display = 'none';
+    document.getElementById('Forum').style.display = 'flex';
+}
+</script>
+</head>
+<body>
+  <div class="container red nav">
+    <ul>
+      <li style="border: none;">
+        <div id="logo">ae</div>
+      </li>
+      <li>
+        <a href="https://proxer.me/"><h2>Proxer.Me</h2></a>
+      </li>
+      <li>
+        <a href="https://de.udacity.com/"><h2>Udacity</h2></a>
+      </li>
+      <li>
+        <a href="http://alexever17.com"><h2>Alexever17</h2></a>
+      </li>
+    </ul>
+  </div>
+  <div class="container vw">
+    <h1>Proxer.Me - Deine Anime, Manga und Japan-Community!</h1>
+  </div>
+  <div class="container vw">
+    <p>Wir sind eine kostenlose und freie Community! Und eine Community besteht aus Geben und Nehmen.
+      Du nutzt auch den Service dieser Community? Dann sorge dafür, dass andere das auch können!
+      Setze keine Erwartungen an andere, sondern hilf selbst mit. Jeder angemeldete User hat
+      die Möglichkeit, unlizenzierte Anime und Manga hochzuladen, sich im Forum zu beteiligen,
+      Informationen zu ergänzen, Vorschläge und Kritik zu äußern. Ermögliche anderen, was auch
+      dir ermöglicht wurde. Hilf bei der Förderung der Anime und Mangakultur in Deutschland!
+      <br><br> Klick auf die unteren Kacheln um mehr über die Seite zu erfahren!</p>
+  </div>
+  <div class="container vw">
+    <div onclick="Anime()" class="hoverobject">
+      <h3>Anime</h3>
+      <i class="flaticon-play-button"></i>
+    </div>
+    <div onclick="Manga()" class="hoverobject">
+      <h3>Manga</h3>
+      <i class="flaticon-agenda"></i>
+    </div>
+    <div onclick="Forum()" class="hoverobject">
+      <h3>Forum</h3>
+      <i class="flaticon-chat"></i>
+    </div>
+  </div>
+  <div id="Anime" class="container vw display">
+    <div class="viewdisplay">
+      <h3>Anime</h3>
+      <img src="http://www.giga.de/wp-content/uploads/2016/06/No-Game-No-Life-Wallpaper1.jpg"
+      width="500px" alt="No Game no Life Bild">
+      <p class="lwdt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+         elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+           kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+           dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+           ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+            est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+            at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+             delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet
+      </p>
+    </div>
+  </div>
+  <div id="Manga" class="container vw display">
+    <div class="viewdisplay">
+      <h3>Manga</h3>
+      <img src="https://somerandomscribbles.files.wordpress.com/2012/08/28.jpg?w=640"
+      width="500px" alt="Fairy Tail Manga Cover">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+         elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+           kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+           dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+           ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+            est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+            at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+             delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet
+      </p>
+    </div>
+  </div>
+  <div id="Forum" class="container vw display">
+    <div class="viewdisplay">
+      <h3>Forum</h3>
+      <img src="http://cdn.proxer.me/f/EQ6vx8h1"
+      width="500px" alt="Forum proxer.me">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+         elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+           kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+           dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+           ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+            est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in
+            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+            at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+             delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet
+      </p>
+    </div>
+  </div>
+  <div class="container vw footer">
+    <p>Font generated by flaticon.com
+    Under CC from: Madebyoliver and Freepik</p>
+  </div>
+</body>
+</html>

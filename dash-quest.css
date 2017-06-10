@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*everything except navi*/
+body {
+	background-color:#4D4D4D;
+	width: 1040px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.startbutton {
+	width: 250px;
+	height: 40px;
+	background-color:#AD0002;
+	font-family: 'Comfortaa', cursive, sans-serif;
+	color: white;
+	font-size:24px;
+	font: bolder;
+	font-weight:bold;
+	padding:5px;
+	margin-bottom:5px;
+	text-align:center;
+}
+div.header {
+	padding:20px;
+	border-color: #AD0002;
+	border-left-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-top-style: ridge;
+	color: #AE0001;
+}
+div.content {
+	padding:20px;
+	border-color: #AD0002;
+	border-left-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-top-style: none;
+	color: #AE0001;
+}
+h1 {
+	text-align:center;
+	font-family: 'Shadows Into Light', cursive, sans-serif;
+	font-size: 70px;
+	font-weight:bold;
+	line-height: 0.4em;
+	text-shadow: 1px 1px 1px white;
+	letter-spacing: 2px
+}
+h2 {
+	text-align:left;
+	font-family: 'Comfortaa', cursive, sans-serif;
+	font-size: 40px;
+	font-weight:bold;
+	line-height: 0.4em;
+	text-shadow: 1px 1px 1px white;
+	letter-spacing: 2px
+}
+	
+p.contentpara {
+	font-size:24px;
+	text-align:left;
+	font-family: 'Comfortaa', cursiv, sans-serif, arial;
+	color: white;
+	text-shadow: 1px 1px 1px #AE0001;
+}
+img.image {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border: 5px groove #AD0002;
+}
+.picturetable {
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse:collapse;
+}
+.picturetable td {
+	border: 3px groove #AD0002;
+}
+td.noborder {
+	border-top-style:none;
+	border-bottom-style:none;
+}
+.smalltext {
+	font-size:18px;
+	text-align:left;
+	font-family: 'Comfortaa', cursiv, sans-serif, arial;
+	color: white;
+	text-shadow: 1px 1px 1px #AE0001;
+}
+.buttons {
+	margin:0;
+	padding:0;
+	background:#4D4D4D;
+	position:fixed;
+	top:0;
+	width:1034px;
+	height:48px;
+	border-color: #AD0002;
+	border-left-style: ridge;
+	border-right-style: ridge;
+	border-bottom-style: ridge;
+	border-top-style: none;
+}
+a:link { 
+    color: #AE0001;
+    text-decoration: underline;
+    cursor: auto;
+}
+a:visited {
+	color: #5B5B5B;
+    text-decoration: underline;
+    cursor: auto;
+}
+a:hover {
+	color: white;
+    text-decoration: underline;
+    cursor: auto;
+}
+	
+#contentparamain {
+	font-size:24px;
+	text-align:center;
+	font-family: 'Comfortaa', cursiv, sans-serif, arial;
+	color: white;
+	text-shadow: 1px 1px 1px #AE0001;
+}
+#trailerframe {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#protagonist {
+	display:none;
+} 
+#grandfather {
+	display:none;
+}
+#kingdom {
+	display:none;
+}
+
+
+/*NAVI*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+	margin-left: 5px;
+	margin-bottom:0;
+	margin-right:5px;
+	margin-top:2px;
+	padding:0;
+	position:fixed;
+	top:3px;
+	width:1040px;
+}
+
+li {
+    float: left;
+}
+li a {
+	display: block;
+	font-size:15px;
+	text-align:left;
+	font-family: 'Comfortaa', cursiv, sans-serif, arial;
+	padding-right:5px;
+}
+.rightelement {
+	float:right;
+	padding-right:5px;
+	margin-right:0;
+}
+.dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: white;
+    min-width: 230px;
+}
+.dropdown-content a {
+	margin:0;
+	padding: 10px 16px;
+    color: #AE0001;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display:block;
+  position:fixed;
+  top:5px;
+  left:51%;
+}

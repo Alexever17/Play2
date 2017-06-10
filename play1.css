@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-family: "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif, Angelface ; color: #050089;  background-color: #FFF6E9;}
+.banner { font-size:80px;}
+.all {
+	margin:auto;
+	}
+#tableform {
+	font-size:22px; 
+	font-family: Arial; 
+	text-decoration: underline;
+	border: none;
+}
+#tabledocument { 
+	width: 1000px;
+	border-color: #050089; 
+	border: 2px inset #000000; 
+	border-collapse:collapse
+}
+td {
+	border: 2px inset #000000;
+}
+.noborder {
+	border: none;
+}
+#table2 { border-color: #050089; border: 2px inset #000000; border-collapse:collapse; font-size:22px; font-family: Arial; width:1000px;}
+#inputstart {
+	color:#050089; 
+	font-family: Arial; 
+	font-size:20px; 
+	width:300px; 
+	height:50px; 
+	background: #FFF6E9; 
+	display: block;
+    margin: auto;
+	text-decoration:none;
+ }
+a {
+	 text-decoration:none;
+ }

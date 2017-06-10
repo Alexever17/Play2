@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alexever17</title>
+<link href="play5.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee|Bevan|Open+Sans|Roboto|Yatra+One" rel="stylesheet">
+<link rel="icon" href="Bilder/favicon.gif" type="image/gif" sizes="16x16">
+<meta name="description" content="A small Website with my favourite Anime and Books">
+<meta name="keywords" content="alexever17, Alexever17, Spaß, testen, whatever">
+<meta http-equiv="author" content="Alexever17">
+<meta http-equiv="content-language" content="de-de">
+</head>
+
+<body>
+
+<div class="header">
+    <h1>ALexever17</h1>
+    <h2>Random Websiten zum Spass erstellt!</h2>
+</div>
+<div class="content">
+<nav class="nav">
+    	<a href="index.html">Startseite</a>
+    	<a href="#">Anime</a>
+    	<a href="#">Bücher</a>
+</nav>
+  <div class="animelist">
+  <button>→</button>
+<button onClick="DanMachi()">DanMachi</button>
+<button onClick="Kuroko()">Kuroko</button>
+<button onClick="OnePunch()">One Punch</button>
+<script>
+function DanMachi() {
+    document.getElementById("iframe").src ="danmachi.html";
+}
+</script>
+<script>
+function Kuroko() {
+    document.getElementById("iframe").src ="kuroko.html";
+}
+</script>
+<script>
+function OnePunch() {
+    document.getElementById("iframe").src ="onepunch.html";
+}
+</script>
+</div>
+<iframe id="iframe" src="danmachi.html" width="1070px" height="500px" frameborder="0" border="0" cellspacing="0"></iframe>
+</div>
+</body>
+</html>

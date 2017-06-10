@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dash Quest</title>
+<link rel="stylesheet" media="screen and (min-width: 1100px)" href="dash-quest.css" />
+<link rel="stylesheet" media="screen and (max-width: 1100px)" href="dash-questmobile.css" />
+<link rel="icon" href="Bilder/favicon.gif" type="image" sizes="16x16">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<meta name="description" content="Eine Fanseite zu Dash Quest">
+<meta name="keywords" content="alexever17, Alexever17, Spaß, testen, whatever">
+<meta http-equiv="author" content="Alexever17">
+<meta http-equiv="content-language" content="de-de">
+</head>
+
+<body>
+<div align="center" class="buttons"></div>
+<ul>
+<li id="libacktohomepage">
+<a href="index.html"><button class="startbutton" type="button">Back to Homepage</button></a>
+</li>
+<li class="dropdown">
+<a href="#"><button class="startbutton" type="button">Sections</button></a>
+<div class="dropdown-content">			
+<a href="#start">Welcome</a>							 
+<a href="#reasons">Why Dash Quest?</a>
+<a href="#trailer">Trailer</a>
+<a href="#story">Story</a>
+<a href="#characters">Characters</a>
+<a href="#guide">Beginner Quide</a>
+</div>
+</li>
+<li class="rightelement">
+<a href="http://dashquest.tinytitanstudios.com/"><button class="startbutton" type="button">Developer Blog</button></a>
+</li>
+</ul>
+<div class="main">
+<div id="start" class="header">
+<h1>Welcome to Dash Quest!</h1>
+<p id="contentparamain">Fantasy action and endless runner collide with exciting RPG elements in this incredibly addictive, retro-inspired adventure game! Dash through hordes of enemies to reach epic boss battles! Customize and upgrade your character with Gear, Spells, Skills, Items and Pets! Complete daily challenges for Legendary Gear and other rewards!</p>
+<img src="Bilder/dash-quest.jpg" class="image" alt="Dash Quest Bild">
+</div>
+<div id="reasons" class="content">
+<h2>Why should I get Dash Quest?</h2>
+<p class="contentpara">
+Dash Quest is an endless runner/rpg from Tiny Titan Studios. It’s heavily retro inspired with it’s old school graphics and effects but has modern game design. <br><br>The important stuff: this is a free, ad-supported game. The ads are few and far between, and they can be turned off with an IAP (in-app purchase) for $2.99, super reasonable. There are other IAPs, all really well priced. I’d suggest getting the Double XP boost. It’s permanent, just $4.99, and will be a really big help to you as you continue playing, as you’ll read below – you’ll definitely wish you’d bought it early once you sink all your time into this game!</p>
+<p class="contentpara">Quoted from <a href="http://codama.ca/dash-quest-beginners-guide/">Dash Quest Beginners Guide</a></p>
+</div>
+<div id="trailer" class="content">
+<iframe id="trailerframe" width="960" height="540" src="https://www.youtube.com/embed/GxAjL95eFtY" frameborder="0" allowfullscreen></iframe>
+</div>
+<div id="story" class="content">
+<h2>Story</h2>
+<p class="contentpara">
+The game is about you, a little boy named Dash, who lives with his Grandpa. One day, they are attacked by the Lich, and Grandpa sends you out to go defeat the generals of his army and their minions, and eventually destroy the Lich. Unfortunately, like a lot of Lichs, he keeps coming back!
+<p class="contentpara">Quoted from <a href="http://codama.ca/dash-quest-beginners-guide/">Dash Quest Beginners Guide</a></p>
+</p>
+</div>
+<div id="characters" class="content">
+<h2>Characters</h2>
+<button onClick="funprota()" type="button" class="startbutton">Protagonist</button>
+<button onClick="fungrand()" type="button" class="startbutton">Grandfather</button>
+<button onClick="funkingd()" type="button" class="startbutton">Kingdom</button><br>
+<script>
+function funprota() {
+	document.getElementById("protagonist").style.display = "block";
+	document.getElementById("grandfather").style.display = "none";
+	document.getElementById("kingdom").style.display = "none";
+	document.getElementById("dareyou").style.display = "none";
+}
+</script>
+<script>
+function fungrand() {
+	document.getElementById("grandfather").style.display = "block";
+	document.getElementById("protagonist").style.display = "none";
+	document.getElementById("kingdom").style.display = "none";
+	document.getElementById("dareyou").style.display = "none";
+}
+</script>
+<script>
+function funkingd() {
+	document.getElementById("grandfather").style.display = "none";
+	document.getElementById("protagonist").style.display = "none";
+	document.getElementById("kingdom").style.display = "block";
+	document.getElementById("dareyou").style.display = "none";
+}
+</script>
+<span>
+<table class="infotable" height="100px">
+<tr>
+<td>
+<span id="protagonist" class="smalltext">Dash is the hero. He lives with his grandfather until one night, he was attacked. His Grandpa told him of the Lich, and gave him the wooden Training Sword, his first weapon. He headed off immediately, without even getting dressed in any armor or clothes first! The only thing he had with him was the Memento, a gift from a long lost loved one.</span>
+</td>
+
+<td>
+<span id="grandfather" class="smalltext">Grandpa is Dash's grandfather. Dash lives in his house. Grandpa had a dream where he was attacked by the Lich's Doom spell. He told Dash of the dream, and gave him the Training Sword. In Story Mode, Grandpa leaves notes for Dash at all of the campsites. He has knowledge of all of the Zones, and the monsters in them. He also seems to have some previous experience with the all of the bosses and their tactics.</span>
+</td>
+
+<td>
+<span id="kingdom" class="smalltext">The Kingdom is the area where Dash and his Grandpa live. It is currently being plagued by the Lich. Visible in Story Mode There is a castle in a clearing and a mini-game, and Grandpa's house is inside this same clearing, at the edge.</span>
+</td>
+<td>
+<span id="dareyou" class="smalltext">Don't klick the buttons, dude! I dare you</span>
+</td>
+</tr>
+</table>
+</span>
+
+</div>
+<div id="guide" class="content">
+<h2>A Guide for Beginners</h2>
+<p class="contentpara"><a href="http://codama.ca/dash-quest-beginners-guide/">Codama.ca</a> a very beautigful site with a great tutorial. Please klick!</p>
+</div>
+</div>
+</body>
+</html>

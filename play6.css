@@ -1,0 +1,104 @@
+                                                                
+h1 {
+	font-size:3.8em;
+}
+h6 {
+	font-size:1.7em;
+	margin:0;
+	padding-left:5px;
+	padding-right:3px;
+	color:#8B8B8B;
+	line-height:1.9em;
+	font-style:italic;
+}
+h4 a {
+	color:black;
+}
+ul {
+	list-style:none;
+}
+ul li {
+	padding:5px;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 0px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+#buttonscroll {
+	position:fixed;
+	top: 10px;
+	right:0px;
+	z-index:1;
+}
+.opacity1 {
+	opacity:1;
+}
+.opacity0 {
+	opacity:0;
+}
+button a {
+	text-decoration:none;
+	color:black;
+}
+button a:hover {
+	text-decoration:none;
+	color:black;
+}
+#navleft {
+  padding:0px 0px 0px 0px;
+}
+#navleft a {
+  float:left;
+  font-size:1em;
+  text-decoration:none;
+  padding:15px 10px 15px 10px;
+  color:white;
+  margin:0;
+  border-color: white;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+}
+#navleft a:visited {
+	color:white;
+	text-decoration:none;
+}
+#navleft a:hover {
+  text-decoration:none;
+  color:black;
+  background-color:white;
+}
+
+
+#topsectionleft {
+  padding:0px 30px 50px 30px;
+}
+#topsectionright {
+  padding:20px 0px 0px 0px;
+}
+
+
+.left {
+	padding:50px 30px 0px 30px;
+}
+.right {
+  	padding:70px 0px 0px 0px;
+}
+
+#Quotes {
+	padding:50px 30px 0px 30px;
+}
+	
