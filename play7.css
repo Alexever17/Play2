@@ -125,7 +125,7 @@ button:focus {
 	height: 498px;
 }
 .tranformX > a{
-	color: white;
+	color: white !important;
 }
 #a1 {
 	top:100vh;
